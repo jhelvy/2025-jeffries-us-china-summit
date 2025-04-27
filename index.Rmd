@@ -150,7 +150,7 @@ class: inverse
 
 ---
 
-# .center[Countering China & Investing in Manufacturing]
+# .center[Countering China by Investing in Manufacturing]
 
 <br>
 
@@ -208,7 +208,7 @@ Sources:
 
 ### Average cost of production in China: $0.10 / W
 
-### **Risk**: U.S. producers may not be globally competitive
+### **Risk**: U.S. producers unlikely to be globally competitive
 
 Sources:
 
@@ -252,6 +252,16 @@ Source: Wood Mackenzie, https://www.reuters.com/world/china/china-will-dominate-
 <br>
 
 ## But do we need _onshoring_?
+
+---
+
+#### .center[Estimated $67 B in savings from global supply chains]
+
+<center>
+<img src="https://github.com/jhelvy/solar-learning-2021/blob/main/figs/png/fig3_savings_historical_annual.png?raw=true" width=100%>
+</center>
+
+Source: Helveston, J.P., He, G., & Davidson, M.R. (2022) “Quantifying the cost savings of global solar photovoltaic supply chains” Nature. 612 (7938), pg. 83-87. DOI: [10.1038/s41586-022-05316-6](https://doi.org/10.1038/s41586-022-05316-6)
 
 ---
 
@@ -302,21 +312,22 @@ background-color: #fff
 
 ---
 
-.leftcol75[
+class: center
+background-color: #fff
+
+## BEVs Concentrated in High-Price Segments in US
+
+<br>
+
+.font120[In 2021, BEVs just 1.1% of new and 0.6% of used listings under $45,000]
 
 <center>
-<img src="images/covid.png" width=100%>
+<img src="images/bev_percent_listings_edit.png" width=100%>
 </center>
 
-.font60[Source: Roberson, Laura A., *Pantha, S., & Helveston, J.P. (2024) “Battery-Powered Bargains? Assessing Electric Vehicle Resale Value in the United States” Environmental Research Letters.]
+<br>
 
-]
-
-.rightcol25[
-
-### .center[Used market is more affordable, but post-COVID prices are up in all markets, not just EVs]
-
-]
+.font80[Data pulled from >60k dealerships, 2016 to 2021. Source: marketcheck.com]
 
 ---
 
@@ -337,17 +348,21 @@ background-color: #fff
 
 --
 
-## 100% tariff on imported Chinese EVs 
+## Tariffs (100% tariff on imported Chinese EVs since 05/2024)
 
 --
 
-## Effectively banning the use of Chinese suppliers (inc. raw materials) in US EVs
+## Effectively banning the use of Chinese suppliers 
 
 --
 
-## Inflation
+## Inflation (see tariffs)
 
 ---
+
+## **Opportunities**
+
+.leftcol[
 
 ## Chinese FDI into U.S.
 
@@ -355,9 +370,11 @@ background-color: #fff
 
 ### Challenge: Uncertainty around Foreign Entities of Concern (FEOC) status
 
+]
+
 --
 
-<br>
+.rightcol[
 
 ## Technology Licensing Agreements
 
@@ -365,11 +382,19 @@ background-color: #fff
 
 ### Challenge: CATL was recently added to DOD's list of “Chinese military companies”
 
+]
+
 ---
 
 class: middle, center, inverse
 
-# The biggest competitor to an EV<br>is not a Chinese EV,<br>it's gas cars
+# We need to stop viewing EVs as<br>.green[_environmental_ technology]<br><br>and start viewing them as<br>.yellow[_essential_ technology]
+
+---
+
+class: middle, center, inverse
+
+# The biggest competitor<br>to an American EV<br>is not a Chinese EV...<br><br>...it's a gas car
 
 ---
 
@@ -383,7 +408,13 @@ background-size: cover
 
 <br>
 
-### slides.jhelvy.com/2025-princeton-industrial-policy
+### <span class="white-text">https://jhelvy.github.io/2025-jeffries-us-china-summit</span>
+
+<style>
+.white-text a {
+  color: white !important;
+}
+</style>
 
 .footer-large[.white[.right[
 
@@ -393,3 +424,27 @@ jhelvy.com `r fa(name = "link", fill = "white")`<br>
 jph@gwu.edu `r fa(name = "paper-plane", fill = "white")`
 
 ]]]
+
+---
+
+class: inverse, middle, center
+
+# Extra Slides
+
+---
+
+.leftcol75[
+
+<center>
+<img src="images/covid.png" width=100%>
+</center>
+
+.font60[Source: Roberson, Laura A., *Pantha, S., & Helveston, J.P. (2024) “Battery-Powered Bargains? Assessing Electric Vehicle Resale Value in the United States” Environmental Research Letters.]
+
+]
+
+.rightcol25[
+
+### .center[Used market is more affordable, but post-COVID prices are up in all markets, not just EVs]
+
+]
