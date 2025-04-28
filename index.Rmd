@@ -18,53 +18,20 @@ output:
     seal: false
 ---
 
-```{r setup, include=FALSE}
-library(knitr)
-library(fontawesome)
-library(metathis)
-
-options(
-    htmltools.dir.version = FALSE,
-    knitr.table.format = "html",
-    knitr.kable.NA = '',
-    dplyr.width = Inf,
-    width = 250
-)
-knitr::opts_chunk$set(
-    warning = FALSE,
-    message = FALSE,
-    fig.path = "figs/",
-    fig.width = 7.252,
-    fig.height = 4,
-    comment = "#>",
-    fig.retina = 3
-)
-
-# Setup xaringanExtra options
-xaringanExtra::use_xaringan_extra(c(
-  "tile_view", "panelset", "share_again"))
-xaringanExtra::style_share_again(share_buttons = "none")
-xaringanExtra::use_extra_styles(
-  hover_code_line = TRUE,
-  mute_unhighlighted_code = FALSE
-)
-
-# Set up website metadata
-meta() %>%
-  meta_general(
-    description = rmarkdown::metadata$subtitle,
-    generator = "xaringan and remark.js"
-  ) %>%
-  meta_name("github-repo" = "jhelvy/slides") %>%
-  meta_social(
-    title = rmarkdown::metadata$title,
-    url = "https://slides.jhelvy.com",
-    og_type = "website",
-    og_author = "John Paul Helveston",
-    twitter_card_type = "summary_large_image",
-    twitter_creator = "@johnhelveston"
-  )
+```{r, child="setup.Rmd"}
 ```
+
+layout: true
+
+<!-- this adds the link footer to all slides, depends on my-footer class in css-->
+
+<div class="footer-small">
+<span>
+© John Paul Helveston, The George Washington University, Apr. 2025
+</span>
+</div>
+
+---
 
 background-image: url("images/blue.jpg")
 background-size: cover
@@ -73,6 +40,8 @@ class: inverse
 <br><br><br><br>
 
 ## `r rmarkdown::metadata$title`
+
+<br><br><br><br>
 
 **.white[John Paul Helveston]**, George Washington University
 
@@ -90,7 +59,7 @@ class: inverse
 <img src="images/global-ev-sales.png" width=95%>
 </center>
 
-.font60[https://www.reuters.com/business/autos-transportation/global-electric-vehicle-sales-up-25-record-2024-2025-01-14/]
+https://www.reuters.com/business/autos-transportation/global-electric-vehicle-sales-up-25-record-2024-2025-01-14/
 
 ]
 
@@ -102,7 +71,7 @@ class: inverse
 <img src="images/fig1_pv_production.png" width=80%>
 </center>
 
-.font60[Helveston, J.P., He, G., & Davidson, M.R. (2022) “Quantifying the cost savings of global solar photovoltaic supply chains” Nature.]
+Helveston, J.P., He, G., & Davidson, M.R. (2022) “Quantifying the cost savings of global solar photovoltaic supply chains” _Nature_.
 
 ]
 
@@ -118,7 +87,7 @@ class: inverse
 <img src="images/battery-supply-chain.png" width=100%>
 </center>
 
-.font60[Cheng, Anthony L., et al. "Electric vehicle battery chemistry affects supply chain disruption vulnerabilities." Nature Communications 15.1 (2024): 2143.]
+Cheng, Anthony L., et al. "Electric vehicle battery chemistry affects supply chain disruption vulnerabilities." Nature Communications 15.1 (2024): 2143.
 
 ]
 
@@ -130,7 +99,7 @@ class: inverse
 <img src="images/solar-supply-chain.png" width=100%>
 </center>
 
-.font60[IEA Special report 2022: Solar PV Global Supply Chains, https://www.iea.org/reports/solar-pv-global-supply-chains]
+IEA Special report 2022: Solar PV Global Supply Chains, https://www.iea.org/reports/solar-pv-global-supply-chains
 
 ]
 
@@ -208,7 +177,7 @@ Sources:
 
 ### Average cost of production in China: $0.10 / W
 
-### **Risk**: U.S. producers unlikely to be globally competitive
+### **Risk: U.S. producers unlikely to be globally competitive**
 
 Sources:
 
@@ -261,7 +230,7 @@ Source: Wood Mackenzie, https://www.reuters.com/world/china/china-will-dominate-
 <img src="https://github.com/jhelvy/solar-learning-2021/blob/main/figs/png/fig3_savings_historical_annual.png?raw=true" width=100%>
 </center>
 
-Source: Helveston, J.P., He, G., & Davidson, M.R. (2022) “Quantifying the cost savings of global solar photovoltaic supply chains” Nature. 612 (7938), pg. 83-87. DOI: [10.1038/s41586-022-05316-6](https://doi.org/10.1038/s41586-022-05316-6)
+Source: Helveston, J.P., He, G., & Davidson, M.R. (2022) “Quantifying the cost savings of global solar photovoltaic supply chains” _Nature_. 612 (7938), pg. 83-87. DOI: [10.1038/s41586-022-05316-6](https://doi.org/10.1038/s41586-022-05316-6)
 
 ---
 
@@ -274,7 +243,7 @@ class: inverse, middle, center
 background-color: #fff
 
 <center>
-<img src="images/annual-sales.png" width=80%>
+<img src="images/annual-sales.png" width=78%>
 </center>
 
 ---
@@ -284,7 +253,7 @@ background-color: #fff
 ## .center[EV sales in US reaching ~10% of sales]
 
 <center>
-<img src="images/ev-sales-us.png" width=70%>
+<img src="images/ev-sales-us.png" width=75%>
 </center>
 
 .font80[Source: Argonne National Lab, https://www.anl.gov/ev-facts/model-sales]
@@ -352,9 +321,13 @@ background-color: #fff
 
 --
 
+<br>
+
 ## Effectively banning the use of Chinese suppliers 
 
 --
+
+<br>
 
 ## Inflation (see tariffs)
 
@@ -368,7 +341,7 @@ background-color: #fff
 
 ### **Gotion batteries**: Multi-billion dollar investments in Illinois and Michigan
 
-### Challenge: Uncertainty around Foreign Entities of Concern (FEOC) status
+### **Challenge**: Uncertainty around Foreign Entities of Concern (FEOC) status
 
 ]
 
@@ -380,7 +353,7 @@ background-color: #fff
 
 ### **Ford-CATL**: Licensing battery technology in a Michigan plant
 
-### Challenge: CATL was recently added to DOD's list of “Chinese military companies”
+### **Challenge**: CATL was recently added to DOD's list of “Chinese military companies”
 
 ]
 
@@ -388,13 +361,17 @@ background-color: #fff
 
 class: middle, center, inverse
 
-# We need to stop viewing EVs as<br>.green[_environmental_ technology]<br><br>and start viewing them as<br>.yellow[_essential_ technology]
+# The biggest competitor<br>to an American EV<br>is not a Chinese EV...<br><br>...it's a gas car
 
 ---
 
-class: middle, center, inverse
+background-image: url("images/top-four-1.png")
+background-size: cover
 
-# The biggest competitor<br>to an American EV<br>is not a Chinese EV...<br><br>...it's a gas car
+---
+
+background-image: url("images/top-four-2.png")
+background-size: cover
 
 ---
 
