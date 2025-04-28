@@ -288,7 +288,7 @@ background-color: #fff
 
 <br>
 
-.font120[In 2021, BEVs just 1.1% of new and 0.6% of used listings under $45,000]
+.font120[In 2024, BEVs just 1.8% of new and 0.4% of used listings under $45,000]
 
 <center>
 <img src="images/bev_percent_listings_edit.png" width=100%>
